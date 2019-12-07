@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title{
+  text-align: center;
+}
+
+.app-calcs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
