@@ -47,7 +47,7 @@ class MultiplyCalc extends Component {
         input: parseFloat(this.state.previousNumber) * 
         parseFloat(this.state.currentNumber),
 
-        historyDivide: 
+        historyMultiply: 
           this.state.historyMultiply + 
           this.state.previousNumber +
           this.state.operator +
@@ -61,7 +61,7 @@ class MultiplyCalc extends Component {
   }
 
   changeHistoryVal() {
-    this.props.changeHistory(this.state.historyDivide);
+    this.props.changeHistory(this.state.historyMultiply);
   }
 
   render() {
